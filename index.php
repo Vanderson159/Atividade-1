@@ -15,7 +15,7 @@
                 $seculo += 1;
             }else{
                 if($tamanho < 4){
-                    $seculo = substr($ano, 0, 1); //pegando os dois primeiros caracteres
+                    $seculo = substr($ano, 0, 1); //pegando o primeiro caracteres
                     $seculo += 1;
                 }
             } 
